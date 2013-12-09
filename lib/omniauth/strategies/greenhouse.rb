@@ -1,6 +1,6 @@
 module OmniAuth
   module Strategies
-    class GreenhouseStrategy < OmniAuth::Strategies::OAuth2
+    class Greenhouse < OmniAuth::Strategies::OAuth2
 
       SITE = 'http://localhost-app.greenhouse.io:3000'
 
