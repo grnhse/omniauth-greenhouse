@@ -1,15 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'greenhouse/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'greenhouse'
-  spec.version       = Greenhouse::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = %w(timothy.frey)
   spec.email         = %w(timothy.frey@greenhouse.io)
-  spec.description   = 'Integrate with Greenhouse via OAuth 2.0'
-  spec.summary       = 'Integrate with Greenhouse via OAuth 2.0'
+  spec.description   = 'Integrate with Greenhouse with OmniAuth'
+  spec.summary       = 'Integrate with Greenhouse with OmniAuth'
   spec.homepage      = 'http://greenhouse.io'
   spec.license       = 'MIT'
 
@@ -20,4 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
+
+  spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.1.1'
+  spec.add_runtime_dependency 'omniauth', '~> 1.1.4'
 end
