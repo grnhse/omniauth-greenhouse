@@ -2,7 +2,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Greenhouse < OmniAuth::Strategies::OAuth2
+    class GreenhouseStrategy < OmniAuth::Strategies::OAuth2
 
       SITE = 'http://localhost-app.greenhouse.io:3000'
 
