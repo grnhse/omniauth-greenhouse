@@ -6,7 +6,7 @@ Integrate with Greenhouse via OAuth 2.0
 
 Add this line to your application's Gemfile:
 
-    gem 'oauth-greenhouse'
+    gem 'omniauth-greenhouse'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install oauth-greenhouse
+    $ gem install omniauth-greenhouse
 
 ## Usage
 
