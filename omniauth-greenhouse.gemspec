@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'omniauth-greenhouse'
-  spec.version       = '1.3.0'
+  spec.version       = '1.3.1'
   spec.authors       = %w(timothy.frey)
   spec.email         = %w(tech@greenhouse.io)
   spec.description   = 'Integrate with Greenhouse with OmniAuth'
