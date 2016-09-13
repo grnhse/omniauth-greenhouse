@@ -26,7 +26,7 @@ your application, you will need to provide:
 
 * Application Name
 * Application URL
-* Callback URL (using OmniAuth, it will be http://myapp.example.com/authorize/greenhouse/callback)
+* Callback URL (using OmniAuth, it will be http://myapp.example.com/auth/greenhouse/callback)
 * Small 128x128px Logo to display in the Greenhouse Authorizaiton screen
 
 Once you receive your CLIENT_KEY and CLIENT_SECRET, add this to your config/initializers/omniauth.rb file:
@@ -40,13 +40,13 @@ end
 
 After this is configured, your users will be able to authorize your application to use their Greenhouse account via:
 
-    http://myapp.example.com/authorize/greenhouse
+    http://myapp.example.com/auth/greenhouse
 
 The user will be presented with an authorization screen.  When the user clicks on the 'Authorize' button, they will be
 redirected back to your site to the 'Callback URL' you provided during the application registration process.  This
 callback URL will look something like:
 
-    http://myapp.example.com/authorize/greenhouse/callback
+    http://myapp.example.com/auth/greenhouse/callback
 
 If the user clicked on the 'Authorize' button, you can retrieve the OAuth 2.0 token via:
 
