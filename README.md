@@ -20,7 +20,8 @@ Or install it yourself as:
 
 It's easy to integrate with Greenhouse using the OmniAuth gem.
 
-The first step is to request a CLIENT_KEY and CLIENT_SECRET from a Greenhouse support specialist (support@greenhouse.io).
+If you aren't currently a Greenhouse customer, the first step is to reach out to our Partnerships team at partners@greenhouse.io to request a CLIENT_KEY and CLIENT_SECRET.
+
 Unfortunately, there is no self-service mechanism to register your application.  When you send a request to register
 your application, you will need to provide:
 
