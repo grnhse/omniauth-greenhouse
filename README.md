@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-**IMPORTANT CHANGE: Due to updates made to omniauth-oauth2 gem, we've had to specify $'omniauth-oauth2', '~> 1.3.1' in our Gemfile. Be aware this may affect other dependencies**
+**IMPORTANT CHANGE: Due to updates made to omniauth-oauth2 gem, you must  specify $'omniauth-oauth2', '~> 1.3.1' in your Gemfile. Be aware this may affect other dependencies**
 
 
 It's easy to integrate with Greenhouse using the OmniAuth gem.
