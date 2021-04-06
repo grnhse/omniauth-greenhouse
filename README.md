@@ -1,3 +1,7 @@
+# Important Note
+
+This will be Greenhouse's last supported version of this gem. Any updates moving forward should be forked and maintained by the users.
+
 # Greenhouse
 
 Integrate with Greenhouse via OAuth 2.0
