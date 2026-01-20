@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.post_install_message = %q{
-    omniauth-greenhouse will be removed from Rubygems on Friday, April 3, 2026.
+    omniauth-greenhouse will be removed from Rubygems.org on Friday, April 3, 2026.
     Please install using a direct link to the Github repo:
     
     gem "omniauth-greenhouse", git: "git@github.com:grnhse/omniauth-greenhouse.git", branch: "master"
